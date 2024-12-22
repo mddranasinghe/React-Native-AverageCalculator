@@ -1,8 +1,6 @@
 import { View, Text, TextInput, StyleSheet ,Button } from 'react-native';
 import React, { useState } from 'react';
 
-
-
 const App = () => {
   const [fname, setFirstName] = useState('');
   const [lname, setLastName] = useState('');
@@ -104,14 +102,10 @@ const App = () => {
             <Text style={styles.resultText}>{average}</Text>
           </View>
         )}
-
-
       </View>
 
     </View>
-  );
-};
-
+  );}
 export default App;
 
 const styles = StyleSheet.create({
